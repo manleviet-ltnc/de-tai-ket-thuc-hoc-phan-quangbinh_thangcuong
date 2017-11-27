@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\bin\Debug\crossyroad.exe.config
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\bin\Debug\crossyroad.exe
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\bin\Debug\crossyroad.pdb
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\obj\Debug\crossyroad.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\obj\Debug\crossyroad.frmGame.resources
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\obj\Debug\crossyroad.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\obj\Debug\crossyroad.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\obj\Debug\crossyroad.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\obj\Debug\crossyroad.exe
+C:\Users\Administrator\Documents\GitHub\contactsapp\de-tai-ket-thuc-hoc-phan-quangbinh_thangcuong\crossyroad\crossyroad\obj\Debug\crossyroad.pdb
