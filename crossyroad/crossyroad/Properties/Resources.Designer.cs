@@ -153,6 +153,16 @@ namespace crossyroad.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap if_back_alt_134226__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("if_back-alt_134226 (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap if_hen_01_2140042 {
             get {
                 object obj = ResourceManager.GetObject("if_hen-01_2140042", resourceCulture);
