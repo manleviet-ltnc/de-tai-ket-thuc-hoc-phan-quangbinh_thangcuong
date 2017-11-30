@@ -16,5 +16,19 @@ namespace crossyroad
         {
             InitializeComponent();
         }
+
+        private void frmGame_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            switch(e.KeyChar)
+            {
+                case 'Left':btnLeft.PerformClick();break;
+                case 'Right':btnRight.PerformClick();break;
+                case 'Straight':btnStraight.PerformClick();break;
+
+                default:break;
+
+              
+            }
+        }
     }
 }

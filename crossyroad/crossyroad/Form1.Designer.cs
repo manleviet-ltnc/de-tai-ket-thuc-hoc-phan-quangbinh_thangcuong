@@ -339,9 +339,11 @@
             this.Controls.Add(this.pxbStreet);
             this.Controls.Add(this.pxbAuto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "frmGame";
             this.Text = "Crossy Road";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmGame_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pxbGarden)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pxbStreet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pxbAuto)).EndInit();
