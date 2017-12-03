@@ -100,5 +100,26 @@
   <ItemGroup>
     <None Include="Resources\if_back-alt_134226 %281%291.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24257425_962987037175618_1410376323_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_muscle_car_44654.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_muscle_car_44654 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_army_hammer_44650.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_muscle_car_446541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_army_hammer_446501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_youtube-play_1608384.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

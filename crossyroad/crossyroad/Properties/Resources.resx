@@ -127,6 +127,9 @@
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="if_muscle_car_44654" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_muscle_car_44654.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="if_icon-arrow-right-c_211621" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_icon-arrow-right-c_211621.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,11 +139,17 @@
   <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Mau-Xanh-La-Cay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mau-Xanh-La-Cay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="if_Tree_34635" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_Tree_34635.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_muscle_car_446541" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_muscle_car_446541.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +157,17 @@
   <data name="12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1231" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="24257425_962987037175618_1410376323_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24257425_962987037175618_1410376323_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_muscle_car_44654 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_muscle_car_44654 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_back-alt_134226 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_back-alt_134226 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_army_hammer_44650" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_army_hammer_44650.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="if_tree_56042" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_tree_56042.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,10 +175,13 @@
   <data name="131130hinh-nen-laptop-nhung-giot-nuoc-tinh-kiet-mau-xanh-la-cay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\131130hinh-nen-laptop-nhung-giot-nuoc-tinh-kiet-mau-xanh-la-cay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="if_army_hammer_446501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_army_hammer_446501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="123" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\123.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_back-alt_134226 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_back-alt_134226 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_youtube-play_1608384" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_youtube-play_1608384.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

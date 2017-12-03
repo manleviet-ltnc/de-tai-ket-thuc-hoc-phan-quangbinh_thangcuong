@@ -133,9 +133,39 @@ namespace crossyroad.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _24257425_962987037175618_1410376323_n {
+            get {
+                object obj = ResourceManager.GetObject("24257425_962987037175618_1410376323_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3 {
             get {
                 object obj = ResourceManager.GetObject("3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap if_army_hammer_44650 {
+            get {
+                object obj = ResourceManager.GetObject("if_army_hammer_44650", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap if_army_hammer_446501 {
+            get {
+                object obj = ResourceManager.GetObject("if_army_hammer_446501", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,6 +213,36 @@ namespace crossyroad.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap if_muscle_car_44654 {
+            get {
+                object obj = ResourceManager.GetObject("if_muscle_car_44654", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap if_muscle_car_44654__1_ {
+            get {
+                object obj = ResourceManager.GetObject("if_muscle_car_44654 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap if_muscle_car_446541 {
+            get {
+                object obj = ResourceManager.GetObject("if_muscle_car_446541", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap if_Tree_34635 {
             get {
                 object obj = ResourceManager.GetObject("if_Tree_34635", resourceCulture);
@@ -196,6 +256,16 @@ namespace crossyroad.Properties {
         internal static System.Drawing.Bitmap if_tree_56042 {
             get {
                 object obj = ResourceManager.GetObject("if_tree_56042", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap if_youtube_play_1608384 {
+            get {
+                object obj = ResourceManager.GetObject("if_youtube-play_1608384", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

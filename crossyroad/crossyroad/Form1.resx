@@ -121,7 +121,7 @@
   <data name="pxbStreet.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAzMAAACxCAIAAAB/WXSvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAQpSURBVHhe7dqxcdtAEEBRdule3Jljd6JURdAz8jo5RRRA
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAQpSURBVHhe7dqxcdtAEEBRdule3Jljd6JURdAz8jo5RRRA
         4dP33mwiZLcD4n6g228AABrWMrsBAHCVKbIP8wgAgEtMlH2YRwAAXGKi7MM8AgDgEhNl/8xTAAC+3xQZ
         AABXU2YAABXKDACgQpkBAFQoMwCACmUGAFChzAAAKpQZAECFMgMAqFBmAAAVygwAoEKZAQBUKDMAgApl
         BgBQocwAACqUGQBAhTIDAKhQZgAAFcoMAKBCmQEAVCgzAIAKZQYAUKHMAAAqlBkAQIUyAwCoUGYAABXK
@@ -142,4 +142,10 @@
         AQBU3O4AABTc738AUFzJ6q8s+y0AAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
 </root>

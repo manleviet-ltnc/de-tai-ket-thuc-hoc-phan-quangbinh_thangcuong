@@ -16,19 +16,76 @@ namespace crossyroad
         {
             InitializeComponent();
         }
+        int x_Car1;
+        int x_Car2;
+        int x_Chicken;
+        int y_Chicken;
+        int KhoangCachGiua2Car = 200;
+        int x_Cap1;
 
-        private void frmGame_KeyPress(object sender, KeyPressEventArgs e)
+        private void frmGame_Load(object sender, EventArgs e)
         {
-            switch(e.KeyChar)
+            ptbCar1.Size = new Size(200, 500);
+            ptbCar2.Size = new Size(200, 500);
+            ptbChicken.Size = new Size(75, 78);
+            x_Cap1 = this.Width + 300;
+            ptbCar1.Location = new Point(x_Cap1, x_Car1);
+            x_Car1 = 500;
+            ptbCar2.Location = new Point(x_Cap1, x_Car2);
+            x_Car2 = (500 + x_Car1) + KhoangCachGiua2Car;
+            x_Chicken = ptbChicken.Location.X;
+            y_Chicken = ptbChicken.Location.Y;
+            btnPlay.Size = new Size(30, 30);
+            timer1.Interval = 1;
+            timer2.Interval = 50;
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            x_Cap1 = 10;
+            ptbCar1.Location = new Point(x_Cap1,x_Car1);
+            ptbCar2.Location = new Point(x_Cap1, x_Car2);
+            if (x_Cap1 + ptbCar1.Width <= 0)
+                x_Cap1 = 400 + ptbCar2.Width + 200;
+            ptbCar1.Location = new Point(x_Cap1, x_Car1);
+            ptbCar2.Location = new Point(x_Cap1, x_Car2);
+        }
+        int dem = 0;
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            dem++;
+            if( dem % 2!=0)
             {
-                case 'Left':btnLeft.PerformClick();break;
-                case 'Right':btnRight.PerformClick();break;
-                case 'Straight':btnStraight.PerformClick();break;
-
-                default:break;
-
-              
+                timer1.Start();
+                timer2.Start();
             }
+            else
+            {
+                timer1.Stop();
+                timer2.Stop();
+            }
+
+        }
+
+        private void btnPlay_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode== Keys.Space)
+            {
+                y_Chicken -= 50;
+            }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if (y_Chicken + ptbChicken.Height <= this.Height)
+            {
+                y_Chicken += 10;
+                ptbChicken.Location = new Point(x_Chicken, y_Chicken);
+            }
+            else
+                timer2.Stop();
         }
     }
 }
