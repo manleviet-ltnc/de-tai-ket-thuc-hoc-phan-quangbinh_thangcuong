@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGame));
-            this.btnPlay = new System.Windows.Forms.Button();
             this.ptbCar2 = new System.Windows.Forms.PictureBox();
             this.ptbCar1 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -56,6 +55,7 @@
             this.pxbAuto = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.btnPlay = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ptbCar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbCar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -81,17 +81,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pxbAuto)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnPlay
-            // 
-            this.btnPlay.Image = global::crossyroad.Properties.Resources.if_youtube_play_1608384;
-            this.btnPlay.Location = new System.Drawing.Point(12, 12);
-            this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(30, 30);
-            this.btnPlay.TabIndex = 26;
-            this.btnPlay.UseVisualStyleBackColor = true;
-            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
-            this.btnPlay.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnPlay_KeyDown);
-            // 
             // ptbCar2
             // 
             this.ptbCar2.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -101,7 +90,6 @@
             this.ptbCar2.Size = new System.Drawing.Size(135, 77);
             this.ptbCar2.TabIndex = 25;
             this.ptbCar2.TabStop = false;
-            this.ptbCar2.Click += new System.EventHandler(this.frmGame_Load);
             // 
             // ptbCar1
             // 
@@ -329,6 +317,16 @@
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // btnPlay
+            // 
+            this.btnPlay.Image = global::crossyroad.Properties.Resources.if_youtube_play_1608384;
+            this.btnPlay.Location = new System.Drawing.Point(2, 12);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(30, 30);
+            this.btnPlay.TabIndex = 26;
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            // 
             // frmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -358,13 +356,14 @@
             this.Controls.Add(this.pxbGarden);
             this.Controls.Add(this.pxbStreet);
             this.Controls.Add(this.pxbAuto);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "frmGame";
             this.Text = "Crossy Road";
             this.Load += new System.EventHandler(this.frmGame_Load);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnPlay_KeyDown);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmGame_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.ptbCar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbCar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -417,9 +416,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox ptbCar1;
         private System.Windows.Forms.PictureBox ptbCar2;
-        private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Button btnPlay;
     }
 }
 

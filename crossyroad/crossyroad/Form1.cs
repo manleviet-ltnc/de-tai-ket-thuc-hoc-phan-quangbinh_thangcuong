@@ -25,8 +25,8 @@ namespace crossyroad
 
         private void frmGame_Load(object sender, EventArgs e)
         {
-            ptbCar1.Size = new Size(200, 500);
-            ptbCar2.Size = new Size(200, 500);
+            ptbCar1.Size = new Size(145, 72);
+            ptbCar2.Size = new Size(135, 77);
             ptbChicken.Size = new Size(75, 78);
             x_Cap1 = this.Width + 300;
             ptbCar1.Location = new Point(x_Cap1, x_Car1);
@@ -35,21 +35,36 @@ namespace crossyroad
             x_Car2 = (500 + x_Car1) + KhoangCachGiua2Car;
             x_Chicken = ptbChicken.Location.X;
             y_Chicken = ptbChicken.Location.Y;
-            btnPlay.Size = new Size(30, 30);
-            timer1.Interval = 1;
+            timer1.Interval = 10;
             timer2.Interval = 50;
+         
             
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            x_Cap1 = 10;
-            ptbCar1.Location = new Point(x_Cap1,x_Car1);
-            ptbCar2.Location = new Point(x_Cap1, x_Car2);
-            if (x_Cap1 + ptbCar1.Width <= 0)
-                x_Cap1 = 400 + ptbCar2.Width + 200;
-            ptbCar1.Location = new Point(x_Cap1, x_Car1);
-            ptbCar2.Location = new Point(x_Cap1, x_Car2);
+            int x = ptbCar1.Location.X;
+            int y = ptbCar1.Location.Y;
+
+            x -= 10;
+
+            if (x < 0) x = 72;
+
+            ptbCar1.Location = new Point(x, y);
+            y -= 10;
+
+            if (y < 0) y = 77;
+            ptbCar2.Location = new Point(x, y);
+
+
+            //x_Cap1 -= 10;
+            //ptbCar1.Location = new Point(x_Cap1, x_Car1);
+            //ptbCar2.Location = new Point(x_Cap1, x_Car2);
+            //if (x_Cap1 + ptbCar1.Width <= 0)
+            x_Cap1 = 500 + ptbCar2.Width + 200;
+            //ptbCar1.Location = new Point(x_Cap1, x_Car1);
+            //ptbCar2.Location = new Point(x_Cap1, x_Car2);
+
         }
         int dem = 0;
 
@@ -69,7 +84,7 @@ namespace crossyroad
 
         }
 
-        private void btnPlay_KeyDown(object sender, KeyEventArgs e)
+        private void frmGame_KeyDown(object sender, KeyEventArgs e)
         {
             if(e.KeyCode== Keys.Space)
             {
@@ -79,9 +94,9 @@ namespace crossyroad
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            if (y_Chicken + ptbChicken.Height <= this.Height)
+            if (y_Chicken >= 0)// + ptbChicken.Height <= this.Height)
             {
-                y_Chicken += 10;
+                y_Chicken -= 10;
                 ptbChicken.Location = new Point(x_Chicken, y_Chicken);
             }
             else
