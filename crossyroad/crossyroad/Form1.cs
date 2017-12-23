@@ -46,14 +46,14 @@ namespace crossyroad
             int x = ptbCar1.Location.X;
             int y = ptbCar1.Location.Y;
 
-            x -= 10;
+            x -= 8;
 
-            if (x < 0) x = 72;
+            if (x < 0) x = 500;
 
             ptbCar1.Location = new Point(x, y);
             y -= 10;
 
-            if (y < 0) y = 77;
+            if (y < 0) y = 600;
             ptbCar2.Location = new Point(x, y);
 
 
@@ -61,7 +61,7 @@ namespace crossyroad
             //ptbCar1.Location = new Point(x_Cap1, x_Car1);
             //ptbCar2.Location = new Point(x_Cap1, x_Car2);
             //if (x_Cap1 + ptbCar1.Width <= 0)
-            x_Cap1 = 500 + ptbCar2.Width + 200;
+            //x_Cap1 = 500 + ptbCar2.Width + 200;
             //ptbCar1.Location = new Point(x_Cap1, x_Car1);
             //ptbCar2.Location = new Point(x_Cap1, x_Car2);
 
@@ -90,6 +90,40 @@ namespace crossyroad
             {
                 y_Chicken -= 50;
             }
+            if (e.KeyCode == Keys.Up)
+                {
+                    LenTren();
+
+                }
+                if (e.KeyCode == Keys.Down)
+                {
+                    XuongDuoi();
+                }
+                if(e.KeyCode == Keys.Left)
+                {
+                     SangTrai();
+                 }
+                if( e.KeyCode == Keys.Right)
+                {
+                     SangPhai();
+                 }
+
+            }
+        private void LenTren()
+        {
+
+        }
+        private void XuongDuoi()
+        {
+
+        }
+        private void SangTrai()
+        {
+
+        }
+        private void SangPhai()
+        {
+
         }
 
         private void timer2_Tick(object sender, EventArgs e)
