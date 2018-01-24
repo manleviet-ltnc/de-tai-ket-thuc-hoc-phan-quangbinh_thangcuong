@@ -37,8 +37,8 @@ namespace crossyroad
             y_Chicken = ptbChicken.Location.Y;
             timer1.Interval = 10;
             timer2.Interval = 50;
-         
-            
+
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -48,14 +48,19 @@ namespace crossyroad
 
             x -= 8;
 
-            if (x < 0) x = 500;
+            if (x < 0) x = 500;//nếu chiếc xe mà qua khỏi vạch thì 1 chiệc xe khác lại xuất hiện
 
             ptbCar1.Location = new Point(x, y);
-            y -= 10;
+            y -= 8;
 
-            if (y < 0) y = 600;
+            if (y < 0) y = 200;
             ptbCar2.Location = new Point(x, y);
 
+            //x_Chicken = ptbChicken.Location.X;
+            //y_Chicken = ptbChicken.Location.Y;
+            //x_Chicken -= 8;
+            //if (x_Chicken < 0) x = 500;
+            //ptbChicken.Location = new Point(x, y);
 
             //x_Cap1 -= 10;
             //ptbCar1.Location = new Point(x_Cap1, x_Car1);
@@ -71,9 +76,9 @@ namespace crossyroad
         private void btnPlay_Click(object sender, EventArgs e)
         {
             dem++;
-            if( dem % 2!=0)
+            if (dem % 2 != 0)
             {
-                timer1.Start();
+                timer1.Start();//khởi động timer
                 timer2.Start();
             }
             else
@@ -86,29 +91,30 @@ namespace crossyroad
 
         private void frmGame_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode== Keys.Space)
+            //xử lí sự kiện cho các nút
+            if (e.KeyCode == Keys.Space)
             {
                 y_Chicken -= 50;
             }
             if (e.KeyCode == Keys.Up)
-                {
-                    LenTren();
-
-                }
-                if (e.KeyCode == Keys.Down)
-                {
-                    XuongDuoi();
-                }
-                if(e.KeyCode == Keys.Left)
-                {
-                     SangTrai();
-                 }
-                if( e.KeyCode == Keys.Right)
-                {
-                     SangPhai();
-                 }
+            {
+                LenTren();
 
             }
+            if (e.KeyCode == Keys.Down)
+            {
+                XuongDuoi();
+            }
+            if (e.KeyCode == Keys.Left)
+            {
+                SangTrai();
+            }
+            if (e.KeyCode == Keys.Right)
+            {
+                SangPhai();
+            }
+
+        }
         private void LenTren()
         {
 
@@ -128,13 +134,19 @@ namespace crossyroad
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            if (y_Chicken >= 0)// + ptbChicken.Height <= this.Height)
+            if (y_Chicken >= 0) // + ptbChicken.Height <= this.Height)
             {
                 y_Chicken -= 10;
                 ptbChicken.Location = new Point(x_Chicken, y_Chicken);
             }
             else
                 timer2.Stop();
+            //    int x = ptbChicken.Location.X;
+            //    int y = ptbChicken.Location.Y;
+            //    if (x_Chicken < 0) x_Chicken = 400;
+            //    x_Chicken -= 8;
+            //    ptbChicken.Location = new Point(x, y);
+            //}
         }
     }
 }
